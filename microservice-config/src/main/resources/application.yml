@@ -1,0 +1,27 @@
+server:
+  port: 8888
+
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
+
+spring:
+  rabbitmq:
+    host: localhost
+    port: 5672
+  #profiles:
+  #  active: default
+  #  active: native #esta configuracion es para cambiar la configuracion predeterminada de spring
+                    #cloud que esta configurado para trabajar con git, le cambiamos a archivos locales
+  application:
+    name: config-server
+  cloud:
+    config:
+      server:
+        git:
+          uri: file:///C:/Users/PC/Desktop/microservice/configuration
+          clone-on-star: true
+          default-label: master
