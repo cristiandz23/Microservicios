@@ -30,7 +30,7 @@ Ejecuta RabbitMQ en un contenedor Docker:
 
     ```bash
     docker run -d --name rabbitmq -p 5672:5672 -p 15672:15672 rabbitmq:management
-    ```
+    
 Esto iniciará RabbitMQ y lo hará accesible en los puertos 5672 (para mensajes) y 15672 (para el panel de administración).
 
 Configuración de la Aplicación
