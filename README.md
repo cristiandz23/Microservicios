@@ -1,18 +1,25 @@
-Microservicios
+Claro, aquí tienes el código para el archivo README.md que puedes copiar y pegar en tu repositorio:
+
+markdown
+Copiar código
+# Microservicios
+
 Este proyecto contiene una arquitectura de microservicios para una tienda en línea. Está desarrollado en Java utilizando Spring Boot y RabbitMQ para la mensajería entre microservicios.
 
-Requisitos
-JDK 17
-Maven
-Docker (opcional, para ejecutar RabbitMQ en un contenedor)
-RabbitMQ (si no usas Docker)
-Configuración del Entorno
-Clonar el Repositorio
+## Requisitos
 
-bash
-Copiar código
-git clone https://github.com/cristiandz23/Microservicios.git
-cd Microservicios
+- JDK 17
+- Maven
+- Docker (opcional, para ejecutar RabbitMQ en un contenedor)
+- RabbitMQ (si no usas Docker)
+
+## Configuración del Entorno
+
+1. **Clonar el Repositorio**
+
+   ```bash
+   git clone https://github.com/cristiandz23/Microservicios.git
+   cd Microservicios
 Configuración de RabbitMQ
 
 Si prefieres no usar Docker, asegúrate de tener RabbitMQ instalado y en funcionamiento.
@@ -60,5 +67,3 @@ Crea una rama para tu funcionalidad o corrección de errores (git checkout -b fe
 Realiza tus cambios y haz commit (git commit -am 'Añadir nueva funcionalidad').
 Sube tus cambios (git push origin feature/nueva-funcionalidad).
 Abre un Pull Request en GitHub.
-Licencia
-Este proyecto está bajo la Licencia MIT. Consulta el archivo LICENSE para más detalles.
